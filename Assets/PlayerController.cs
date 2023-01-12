@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 0.5f;
-
+    public InputAction playerAction;
     public GameObject Camera;
 
     // Start is called before the first frame update
